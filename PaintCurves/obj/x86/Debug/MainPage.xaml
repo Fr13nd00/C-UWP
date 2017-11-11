@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="PaintCurves.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PaintCurves"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.BottomAppBar>
+        <CommandBar x:ConnectionId='1' x:Name="commandbar">
+            <AppBarButton x:ConnectionId='2'  Label="Show"                   />
+            <AppBarSeparator/>
+            <AppBarButton x:ConnectionId='3' Label="Draw"                   />
+            <AppBarSeparator/>
+            <AppBarButton x:ConnectionId='4' Label="Clear"                    />
+            <AppBarSeparator/>
+            <AppBarButton x:ConnectionId='5' Label="Curve"                    />
+
+
+
+           
+            <CommandBar.Content>
+                <TextBlock Text="Paint" Margin="12,14"/>
+            </CommandBar.Content>
+        </CommandBar>
+    </Page.BottomAppBar>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
+        <Grid x:ConnectionId='6' x:Name="PaintGrid" Background="GreenYellow" Margin="-1,2,1,-2" ManipulationMode="All"                                           
+                                                   
+                                                          >
+            <Path Stroke="Red" ManipulationMode="All" Margin="0.334,0,-0.334,0" UseLayoutRounding="False">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure x:ConnectionId='7' x:Name="pathBezier">
+                            <BezierSegment x:ConnectionId='8' x:Name="bezier"  />
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+         
+        </Grid>
+    </Grid>
+</Page>
+
+

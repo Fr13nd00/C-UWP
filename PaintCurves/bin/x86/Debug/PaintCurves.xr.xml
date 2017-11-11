@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="BottomAppBar" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
+      <RootProperty Name="PrimaryCommands" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Label" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarSeparator" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Text" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ManipulationMode" />
+      <RootEvent Name="PointerPressed" />
+      <RootEvent Name="PointerMoved" />
+      <RootEvent Name="PointerReleased" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Shapes.Path">
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="ManipulationMode" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="UseLayoutRounding" />
+      <RootProperty Name="Data" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.PathGeometry">
+      <RootProperty Name="Figures" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.PathFigure">
+      <RootProperty Name="Segments" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.BezierSegment" />
+    <RootType FullName="PaintCurves.MainPage" />
+  </Roots.RootTypes>
+</Roots>
